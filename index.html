@@ -189,6 +189,29 @@
             </div>
         </div>
     </section>
+    <!-- LIVE CHART SECTION -->
+<section id="chart" class="py-16 max-w-6xl mx-auto px-6">
+    <div class="bg-slate-900/80 border border-amber-500/30 p-6 md:p-8 rounded-3xl shadow-2xl">
+        <div class="flex flex-col md:flex-row items-center justify-between mb-6 border-b border-slate-800 pb-4">
+            <div>
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    <i class="fa-solid fa-chart-line text-amber-400"></i> Live Market & Price Chart
+                </h2>
+                <p class="text-slate-400 text-sm mt-1">Pantau pergerakan harga real-time dan likuiditas FEG-RWA di jaringan BSC.</p>
+            </div>
+            <a href="https://geckoterminal.com/bsc/pools/0xfA0c0e032B873b7a134C62E24c83dB2776e1e5Ca" target="_blank" class="mt-4 md:mt-0 px-4 py-2 bg-slate-800 border border-amber-500/40 text-amber-400 rounded-xl text-xs font-bold hover:bg-slate-700 transition flex items-center space-x-2">
+                <span>Buka di GeckoTerminal</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+        </div>
+
+        <!-- Container Widget Chart -->
+        <div class="w-full h-[550px] rounded-2xl overflow-hidden border border-slate-800 bg-slate-950">
+            <!-- Embedding Live Chart menggunakan GeckoTerminal / Dexscreener Widget -->
+            <iframe src="https://www.geckoterminal.com/bsc/pools/0xfA0c0e032B873b7a134C62E24c83dB2776e1e5Ca?embed=1&info=0&swaps=1" title="FEG-RWA Live Chart" class="w-full h-full border-0"></iframe>
+        </div>
+    </div>
+</section>
 
     <!-- SECTION REFERRAL / REGISTRASI -->
     <section id="referral" class="py-16 max-w-6xl mx-auto px-6">
